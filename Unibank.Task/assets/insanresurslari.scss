@@ -43,10 +43,8 @@ main {
         .videodiv{
             background-image: url('/assets/img/bg\ image\ unibank.jpg');
               height: 310px;
-           
-              margin: 40px auto;
-             
-              cursor: pointer;
+              margin: 40px auto;   
+          cursor: pointer;
                border-radius: 10px;
                position: relative;
                i{
@@ -132,12 +130,14 @@ main {
             padding-bottom: 10px;
             margin-left: 43px;
             .img{
+                
                 padding-left: 90px;
                 padding-top: 50px;
                 border-radius: 40px;
                 img{
                     width: 100%;
                     border-radius: 80px;
+                    
                 }
             }
         }
