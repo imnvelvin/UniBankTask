@@ -1,0 +1,381 @@
+main #button {
+  margin-bottom: 30px;
+}
+main #button h3 {
+  color: #FF6400;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-left: 20px;
+  font-family: Arial;
+}
+main #button .active {
+  border: 2px solid;
+  border-color: #FF6400;
+  background-color: #ffffff;
+}
+main #button .active a {
+  color: #FF6400;
+  font-weight: bold;
+}
+main #button button {
+  border: 2px solid grey;
+  padding: 10px 45px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  margin-left: 30px;
+}
+main #button button a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
+main #button .videodiv {
+  background-image: url("/assets/img/bg image unibank.jpg");
+  height: 310px;
+  margin: 40px auto;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+}
+main #button .videodiv i {
+  font-size: 70px;
+  position: absolute;
+  top: 40%;
+  left: 47%;
+  transform: translateY(-50%, -50%);
+  cursor: pointer;
+}
+main #button .videodiv #iframeunibank {
+  width: 100%;
+  height: 365px;
+  border-radius: 10px;
+}
+main .bank a {
+  text-decoration: none;
+}
+main .bank .card {
+  margin: 0px 40px;
+  border: none;
+  background-color: #FAFAFA;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+main .bank .card:hover {
+  background-color: #FF6400;
+  transition: 0.6s;
+}
+main .bank .card:hover p {
+  color: #ffffff;
+}
+main .bank .card:hover i {
+  color: #ffffff;
+}
+main .bank .card :nth-child(2) {
+  font-size: 20px;
+  padding-top: 25px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main .bank .card :nth-child(3) {
+  padding: 0px 75px;
+}
+main .bank .card #karyera {
+  padding: 0px 30px;
+  padding-bottom: 26px;
+}
+main .bank .card #muraciet {
+  padding: 0px 20px;
+  padding-bottom: 29px;
+}
+main .bank .card #telim {
+  padding-bottom: 57px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+main .bank .card i {
+  font-size: 60px;
+  color: #FF6400;
+  text-align: center;
+  padding-top: 40px;
+}
+main #msurasi #personabout {
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-left: 43px;
+}
+main #msurasi #personabout .img {
+  padding-left: 90px;
+  padding-top: 50px;
+  border-radius: 40px;
+}
+main #msurasi #personabout .img img {
+  width: 100%;
+  border-radius: 80px;
+}
+main #msurasi .name {
+  padding-top: 20px;
+  padding-left: 76px;
+  line-height: 26px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main #msurasi .name :nth-child(2) {
+  color: grey;
+}
+main #msurasi .name #about {
+  padding-right: 20px;
+  font-size: 14px;
+}
+main #msurasi .name #about2 {
+  padding-right: 20px;
+  font-size: 14px;
+}
+main #haqqimizda .container {
+  margin-top: 40px;
+  background-color: #FAFAFA;
+  width: 65%;
+  border-radius: 10px;
+}
+main #haqqimizda h2 {
+  color: #FF6400;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-top: 50px;
+  padding-left: 60px;
+}
+main #haqqimizda p {
+  padding: 10px 60px;
+  font-family: sans-serif;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+
+#fursetler {
+  margin-top: 40px;
+}
+#fursetler .col-lg-2-5 {
+  background-color: #FF6400;
+  border-radius: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 30px 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#fursetler .col-lg-2-5 p {
+  font-size: 14px;
+}
+#fursetler i {
+  font-size: 50px;
+  padding-top: 25px;
+}
+#fursetler .card1 p {
+  padding: 10px 60px;
+  font-size: 14px;
+}
+#fursetler .card2 p {
+  padding: 10px 60px;
+}
+#fursetler .card3 p {
+  padding: 10px 60px;
+}
+#fursetler .card4 p {
+  padding: 10px 20px;
+}
+
+#deyerlerimiz {
+  margin-top: 40px;
+}
+#deyerlerimiz h4 {
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #FF6400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#deyerlerimiz .text1 :first-child {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+#deyerlerimiz .text1 :nth-child(2) {
+  line-height: 22px;
+}
+#deyerlerimiz .text2 :first-child {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+#deyerlerimiz .text2 :nth-child(2) {
+  line-height: 22px;
+}
+#deyerlerimiz .text3 :first-child {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+#deyerlerimiz .text3 :nth-child(2) {
+  line-height: 22px;
+}
+#deyerlerimiz .text4 :first-child {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+#deyerlerimiz .text4 :nth-child(2) {
+  line-height: 22px;
+}
+
+@media screen and (max-width: 576px) {
+  body,
+  html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  #sidebarmobile {
+    display: block;
+    z-index: 1;
+  }
+  #sidebarmobile .sidebar {
+    height: 100%;
+    width: 0;
+    overflow-y: scroll;
+    position: fixed;
+    max-height: 100%;
+    z-index: 1;
+    top: 80px;
+    left: 0;
+    background-color: rgb(232, 232, 232);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  #sidebarmobile .sidebar .all {
+    text-align: center;
+    padding-right: 50px;
+    margin: 3px 0px;
+  }
+  #sidebarmobile .sidebar #all {
+    color: black;
+  }
+  #sidebarmobile .sidebar #slidebtn {
+    width: 30%;
+    border: 1px solid #FF6400;
+    background-color: white;
+    margin: 0px 40px;
+    display: inline-block;
+    position: absolute;
+    top: 3%;
+    z-index: 1;
+    border-radius: 7px;
+    color: #FF6400;
+  }
+  #sidebarmobile .sidebar #slidebtn a {
+    color: #FF6400;
+    display: inline-block;
+  }
+  #sidebarmobile .sidebar .sidebtn {
+    width: 35%;
+    border-radius: 7px;
+    background-color: white;
+    position: absolute;
+    top: 3%;
+    left: 41%;
+    z-index: 1;
+    padding-top: 3px;
+    border: 1px solid rgb(219, 218, 218);
+  }
+  #sidebarmobile .sidebar .sidebtn a {
+    color: black;
+  }
+  #sidebarmobile .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  #sidebarmobile .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #sidebarmobile .openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(232, 232, 232);
+    color: white;
+    padding: 5px 15px;
+    position: absolute;
+    top: -39px !important;
+    left: 17px;
+    border: 1px solid;
+    border-radius: 40px;
+  }
+  .allbuttons #first {
+    display: block;
+    padding: 10px 80px;
+    margin: 0 auto;
+  }
+  .allbuttons button {
+    display: none;
+  }
+  #msurasi #personabout {
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-left: 13px !important;
+    width: 90%;
+  }
+  #msurasi #personabout .img {
+    padding-left: 15px !important;
+    padding-top: 50px;
+    border-radius: 40px;
+  }
+  #msurasi #personabout .img img {
+    width: 100%;
+    border-radius: 80px;
+  }
+  #msurasi .name {
+    padding-top: 20px;
+    padding-left: 0px;
+    line-height: 26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #msurasi .name :nth-child(2) {
+    color: grey;
+  }
+  #msurasi .name #about {
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  #msurasi .name #about2 {
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  #haqqimizda .container {
+    margin-top: 40px;
+    background-color: #FAFAFA;
+    width: 95% !important;
+    border-radius: 10px;
+  }
+  #haqqimizda h2 {
+    color: #FF6400;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding-top: 50px;
+    padding-left: 60px;
+  }
+  #haqqimizda p {
+    padding: 1px 1px !important;
+    font-family: sans-serif;
+    line-height: 25px;
+    padding-bottom: 30px;
+  }
+}/*# sourceMappingURL=insanresurslari.css.map */

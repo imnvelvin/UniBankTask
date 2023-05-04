@@ -1,0 +1,454 @@
+nav {
+  padding: 0px;
+  background-color: #FAFAFA;
+}
+
+$maincolor : #FF6400;
+
+.nav-left {
+  padding: 1px 10px;
+
+  .imgbox img {
+    width: 60%;
+  }
+
+  .text a {
+    text-decoration: none;
+    color: #636363;
+    margin: 0 7px;
+    word-spacing: 1px;
+    font-size: 14px;
+  }
+
+}
+
+.yuxarisag{
+
+  padding: 1px 10px;
+
+
+  .ferdi {
+    width: 20%;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid $maincolor;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    color: $maincolor;
+
+  }
+
+  .defaultcolor {
+    color: black;
+    border: 1px solid #ffffffff;
+  }
+
+  .color {
+    color: $maincolor;
+    cursor: pointer;
+    border: 1px solid $maincolor;
+  }
+
+  .biznes {
+    width: 20%;
+    padding: 6px 10px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .word {
+    padding-left: 13px;
+  }
+
+  .word2 {
+    padding-left: 10px;
+  }
+
+  .darkmode {
+    width: 9%;
+    display: inline-block;
+  }
+
+  .dil1 {
+    width: 12%;
+    padding: 5px 13px;
+    border-radius: 6px;
+    margin-left: 40px;
+    background-color: #ffffff;
+  }
+
+  .dil2 {
+
+    width: 12%;
+    padding: 5px 13px;
+    border-radius: 6px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    display: inline;
+
+  }
+
+  .search {
+    width: 8%;
+    padding: 5px 10px !important;
+    border-radius: 6px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    position: relative;
+
+  }
+}
+.say{
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1px;
+  position: absolute;
+  width: 1%;
+  right: 7%;
+  top: 1%;
+}
+.sag2sol {
+  padding-top: 30px;
+  display: flex;
+  gap: 45px;
+
+  a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+    font-family: sans-serif, Arial;
+    font-size: 18px;
+
+  }
+
+}
+
+.sag2 {
+  padding-top: 30px;
+  width: 100%;
+
+  .phone {
+    width: 35%;
+    border-radius: 30px;
+    padding: 13px 25px;
+    border: 1px solid rgb(221, 220, 220);
+    display: inline-block;
+
+    a {
+      color: #000000;
+      text-decoration: none;
+      margin-left: 5px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+
+
+  }
+
+  .bankciliq {
+    width: 63%;
+    border-radius: 30px;
+    padding: 13px 15px;
+    border: 1px solid rgb(221, 220, 220);
+    display: inline-block;
+
+    a {
+      color: #000000;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: 700;
+    }
+
+
+  }
+}
+
+#kartlar {
+  .container {
+    h2 {
+      font-weight: bold;
+      color: $maincolor;
+      padding-left: 30px;
+      padding-top: 30px;
+    }
+  }
+
+  margin-top: 30px;
+
+  #headercard {
+    background-color: #FAFAFA;
+    margin-top: 30px;
+    height: 20rem;
+    border-radius: 10px;
+    width: 65%;
+
+    .allcarddiv {
+      display: flex;
+
+      h2 {
+        font-weight: bold;
+        color: $maincolor;
+        font-family: Arial;
+      }
+
+      .ucard {
+        padding-top: 50px;
+        padding-left: 70px;
+        width: 30%;
+
+        img {
+          width: 95%;
+          box-shadow: -15px 15px 30px 0 rgba(2, 2, 2, 0.24);
+          border-radius: 15px;
+        }
+      }
+
+      .kartadi{
+        h3 {
+          font-weight: bold;
+          padding-top: 70px;
+          font-family: Arial;
+          padding-left: 50px;
+
+        }
+
+        :nth-child(2) {
+          padding-left: 52px;
+        }
+
+        .carddetails {
+          display: flex;
+          width: 80%;
+          gap: 90px;
+          padding-left: 60px;
+          position: relative;
+
+          .multivalyutalicard {
+            width: 100%;
+
+            i {
+              font-size: 40px;
+              width: 0%;
+              padding-top: 30px;
+            }
+
+            p {
+              width: 30%;
+              font-size: 15px;
+              font-weight: bold;
+              font-family: sans-serif;
+              position: absolute;
+              top: 35%;
+
+
+            }
+
+          }
+
+          .faizsizcard {
+            width: 100%;
+            padding-left: 80px;
+
+            i {
+              font-size: 40px;
+              width: 0%;
+              padding-top: 30px;
+            }
+
+            p {
+              width: 35%;
+              font-size: 15px;
+              font-weight: bold;
+              font-family: sans-serif;
+              position: absolute;
+              top: 40%;
+
+
+            }
+
+          }
+
+          .cashback {
+            width: 100%;
+            padding-left: 50px;
+
+            i {
+              font-size: 40px;
+              width: 0%;
+              padding-top: 30px;
+              padding-left: 40px;
+            }
+
+            p {
+              width: 40%;
+              font-size: 15px;
+              font-weight: bold;
+              font-family: sans-serif;
+              position: absolute;
+              top: 40%;
+              padding-left: 90px;
+            }
+          }
+        }
+      }
+      .etrafli{
+        cursor: pointer;
+        height: 50px;
+        margin-top: 50px;
+        margin-left: 30px;
+        padding: 14px 40px;
+        border-radius: 40px;
+        a{
+          text-decoration: none;
+          color:#ffffff;
+          font-weight: bold;
+          .fa-solid{
+            padding-left: 10px;
+          }
+        }
+        background-color:$maincolor;
+      }
+
+      
+    }
+
+  }
+
+
+}
+#debetkartlar{
+    h2{
+      color: $maincolor;
+      margin: 60px 20px;
+      font-weight: bold;
+      font-family: Arial;
+
+    }
+  #same{
+    background-color: #FAFAFA;
+    height: 29rem;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  .imgler{
+    width: 56%;
+     padding-top: 30px;
+     padding-left: 70px;
+    img{
+        width: 100%;
+        box-shadow: -15px 15px 30px 0 rgba(2, 2, 2, 0.24);
+        border-radius: 15px;
+
+    }
+   
+  }
+  .visaplatinium{
+    h3{
+      padding-top: 47px;
+      padding-left: 70px;
+      font-weight: bold;
+    }
+    h4{
+      padding-top: 47px;
+      padding-left: 70px;
+      font-weight: bold;
+    }
+    p{
+      font-size: 14px;
+      width: 90%;
+      padding: 10px 70px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+    }
+
+  }
+  .buybtn{
+    padding-left: 80px;
+    padding-top: 20px;
+    #buybtn{
+      padding: 10px 30px;
+      border-radius: 40px;
+      background-color: $maincolor;
+      border: none;
+      a{
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration: none
+      }
+    }
+  }
+}
+
+#diger{
+  #first{
+    color: $maincolor;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial;
+    margin: 50px 0px;
+  }
+  h2{
+    color: $maincolor;
+    margin: 60px 20px;
+    font-weight: bold;
+    font-family: Arial;
+
+  }
+#same{
+  background-color: #FAFAFA;
+  height: 29rem;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.visaplatiniumimg{
+  width: 56%;
+   padding-top: 30px;
+   padding-left: 70px;
+  img{
+      width: 100%;
+      box-shadow: -15px 15px 30px 0 rgba(2, 2, 2, 0.24);
+      border-radius: 15px;
+
+  }
+ 
+}
+.visaplatinium{
+  h3{
+    padding-top: 47px;
+    padding-left: 70px;
+    font-weight: bold;
+  }
+  h4{
+    padding-top: 47px;
+    padding-left: 70px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 14px;
+    width: 90%;
+    padding: 10px 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+
+}
+.buybtn{
+  padding-left: 80px;
+  padding-top: 20px;
+  #buybtn{
+    padding: 10px 30px;
+    border-radius: 40px;
+    background-color: $maincolor;
+    border: none;
+    a{
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: none
+    }
+  }
+}
+}
+@import "importcard";

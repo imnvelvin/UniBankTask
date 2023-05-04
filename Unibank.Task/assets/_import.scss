@@ -1,0 +1,1068 @@
+@media screen and (max-width : 576px) {
+  .text {
+    display: none;
+  }
+
+  body,
+  html {
+    z-index: -1;
+    overflow-x: hidden !important;
+    max-width: 100%;
+  }
+  #nav {
+    background-color: #ffffffff;
+  }
+
+  #ferdi {
+    display: none;
+  }
+
+  .dil1{
+    display: none;
+  }
+
+  #dil2{
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  #biznes {
+    display: none;
+  }
+
+  #darkmode {
+    display: none;
+  }
+
+  #yuxari2ol{
+    display: none;
+  }
+
+  #bankciliq {
+    display: none;
+  }
+
+  #phone {
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    width: 30%;
+    padding: 10px 20px;
+
+  }
+
+  #slider {
+    height: 31rem;
+    border-radius: 10px;
+    background-color: #FF6400;
+    position: relative;
+    width: 100%;
+    margin-right: 2px;
+
+    #text1 {
+      span {
+        position: absolute !important;
+        width: 100% !important;
+        top: 3rem !important;
+        left: 50px !important;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white !important;
+        font-size: 30px !important;
+        font-weight: bold !important;
+      }
+    }
+
+    #banner {
+      position: absolute;
+      bottom: 35%;
+      left: 10%;
+    }
+
+    .banner {
+      width: 45% !important;
+    }
+
+    #text3>p {
+      position: absolute;
+      top: 25%;
+      padding-right: 13px;
+
+      font-size: 11px;
+      left: 1rem;
+      font-family: sans-serif;
+      color: #fff8f3;
+      font-weight: bold;
+
+    }
+
+    .buttondiv {
+      position: absolute;
+      top: 45%;
+
+    }
+  }
+
+  #img {
+    width: 40%;
+
+  }
+
+  .imgbox {
+    position: absolute;
+    left: 44%;
+    top: 110%;
+  }
+
+  #ct {
+    position: relative;
+
+  }
+
+  #sidebarmobile {
+    display: block;
+    z-index: 1;
+
+    .sidebar {
+      height: 100%;
+      width: 0;
+      overflow-y: scroll;
+      position: fixed;
+      max-height: 100%;
+      z-index: 1;
+      top: 80px;
+      left: 0;
+      background-color: rgb(232, 232, 232);
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+
+      .all {
+        text-align: center;
+        padding-right: 50px;
+        margin: 3px 0px;
+
+      }
+
+      #all {
+        color: black;
+      }
+
+      #slidebtn {
+        width: 30%;
+        border: 1px solid #FF6400;
+        background-color: #ffffffff;
+        margin: 0px 40px;
+        display: inline-block;
+        position: absolute;
+        top: 3%;
+        z-index: 1;
+        border-radius: 7px;
+        color: #FF6400;
+
+        a {
+
+          color: #FF6400;
+          display: inline-block;
+        }
+      }
+
+      .sidebtn {
+        width: 35%;
+        border-radius: 7px;
+        background-color: #ffffffff;
+        position: absolute;
+        top: 3%;
+        left: 41%;
+        z-index: 1;
+        padding-top: 3px;
+        border: 1px solid rgb(219, 218, 218);
+
+        a {
+
+          color: black;
+        }
+      }
+    }
+    .sidebar a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+      .openbtn {
+        font-size: 30px;
+        cursor: pointer;
+        background-color: rgb(232, 232, 232);
+        color: white;
+        padding: 5px 15px;
+        position: absolute;
+        top:-65px;
+        left: 17px;
+        border: 1px solid;
+        border-radius: 40px;
+      }
+  }
+
+  .sliderbackground2 {
+    position: relative;
+
+    #topla2 {
+      position: absolute;
+      top: 10%;
+      left: 63%;
+    }
+
+    .texttopla {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    #imgmoney {
+      position: absolute;
+      bottom: 50%;
+
+    }
+
+    #bannerimg {
+      width: 80%;
+    }
+
+    #kocurme {
+      position: absolute;
+      width: 85%;
+      padding-right: 40px;
+      right: 50%;
+      top: 22%;
+    }
+
+    .kocurme>p {
+      width: 280%;
+
+      font-size: 14px;
+    }
+
+    #buttondiv {
+      position: absolute;
+      top: 50%;
+      left: 60%;
+    }
+  }
+
+  .sliderbackground3 {
+    position: relative;
+
+    .youcard {
+      position: absolute;
+      top: 55%;
+      left: 30% !important;
+    }
+
+    .youcard img {
+      width: 70%;
+
+    }
+
+    #textdesigncard {
+      position: absolute;
+      top: 20%;
+      left: 10% !important;
+
+    }
+
+    .textdesigncard {
+      width: 200%;
+    }
+
+    #designtext {
+      font-size: 20px !important;
+      font-weight: bold !important;
+      padding-left: 320px;
+    }
+
+    #designcard {
+      position: absolute;
+      top: 33%;
+      width: 80%;
+      right: 55%;
+    }
+
+    .ubank {
+      width: 440%;
+      font-size: 13px !important;
+    }
+
+  }
+
+  .sliderbackground4 {
+    position: relative;
+
+    .imgcard {
+      position: absolute;
+      top: 50% !important;
+      left: 20%;
+
+      img {
+        width: 95% !important;
+      }
+    }
+
+    #cardtocard {
+      position: absolute !important;
+      top: 15%;
+      right: -6%;
+      width: 150%;
+
+      p {
+        font-size: 19px;
+
+      }
+    }
+
+    #percent {
+      position: absolute;
+      top: 25%;
+      width: 50%;
+      right: 70%;
+
+      p {
+        width: 290%;
+      }
+    }
+  }
+
+  #cardlar {
+    display: block !important;
+  }
+  #card {
+    height: 215px !important;
+    width: 105%;
+    position: relative;
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 12px;
+    margin-top: 20px;
+
+    #percent1 {
+      font-size: 30px !important;
+      color: #FF6400;
+      font-weight: bold;
+    }
+
+    #title {
+      font-size: 13px !important;
+
+
+    }
+
+    .start {
+      font-size: 13px !important;
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    #Buy {
+      padding: 5px 15px !important;
+      position: absolute;
+      background-color: #FF6400;
+      border: 1px solid rgb(232, 232, 232);
+      border-radius: 40px;
+      left: 24%;
+      bottom: 10%;
+
+      a {
+        font-size: 13px;
+        font-weight: 700;
+        color: #ffffffff;
+        text-decoration: none;
+        display: inline !important;
+      }
+
+    }
+  }
+
+  #cardlars {
+    display: none;
+  }
+
+  #cards {
+    height: 215px;
+    width: 100%;
+
+    background-color: #FAFAFA;
+    border: none;
+    position: relative;
+    border-radius: 12px;
+
+    margin-top: 20px !important;
+    margin-left: -1px !important;
+
+    #percent1 {
+      font-size: 30px !important;
+      color: #FF6400;
+      font-weight: bold;
+    }
+
+
+    #title {
+      font-size: 15px !important;
+    }
+
+    .start {
+      font-size: 11px !important;
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+    #Buy {
+      padding: 5px 15px !important;
+      position: absolute;
+      left: 30%;
+      bottom: 10%;
+      margin-top: 15px;
+
+      background-color: #FF6400;
+      border: 1px solid rgb(232, 232, 232);
+      border-radius: 40px;
+      a {
+        font-size: 13px;
+        font-weight: 700;
+        color: #ffffffff;
+        text-decoration: none;
+      }
+    }
+  }
+
+  #Ucard {
+    background-color: #FAFAFA;
+    height: 37rem;
+    border-radius: 10px;
+    width: 100;
+    margin-top: 100px;
+    position: relative;
+    #ucardimg {
+      position: relative !important;
+      #img {
+
+        width: 100% !important;
+        position: absolute !important;
+        top: -70px !important;
+        right: 5%;
+        z-index: 1;
+      
+      }
+    }
+
+    #card-right {
+      position: relative !important;
+      #title {
+        position: relative;
+        padding-top: 90px;
+        .slogan {
+          width: 100% !important;
+          position: absolute;
+          right: 1% !important;
+          top: 250%;
+          h2 {
+            color: $maincolor !important;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100% !important;
+            font-size: 25px;
+          }
+        }
+
+      }
+
+    }
+
+    #parent {
+      position: absolute;
+      top: 65%;
+      left: 5% !important;
+
+    }
+
+    #place {
+      position: relative !important;
+    }
+
+    .cardabout {
+      width: 100% !important;
+      position: absolute;
+      top: 320%;
+      font-size: 14px;
+      left: 1%;
+      color: black;
+      line-height: 16px;
+    }
+
+    #row {
+      display: block;
+    }
+    .etrafli {
+      padding: 15px 110px;
+      margin-top: 10px;
+
+      position: relative !important;
+
+      border: none;
+      background-color: $maincolor;
+      border-radius: 30px;
+      color: #ffffff;
+      font-weight: bold;
+      font-family: arial;
+    }
+    .partnyorlar {
+      padding: 10px 25px;
+      border-radius: 20px;
+      border: none;
+      color: rgb(171, 170, 170);
+      border: 1px solid #c6c4c4;
+      font-weight: bold;
+    }
+    #partnyor {
+      position: absolute;
+      top: 142%;
+      left: -6%;
+    }
+    .sexsikabinet {
+      padding: 10px 20px;
+      border-radius: 20px;
+      position: absolute;
+      right: 16%;
+      border: 1px solid #c6c4c4;
+
+      width: 46%;
+
+      span {
+
+        color: rgb(171, 170, 170);
+        font-weight: bold;
+      }
+    }
+
+    .sexsi {
+      margin-left: 15px;
+      position: absolute !important;
+      right: 10% !important;
+      top: 140% !important;
+    }
+
+  }
+
+  #app {
+    width: 87%;
+    height: 31rem;
+
+    #appname {
+      position: relative;
+      margin: 40px 0px;
+    }
+
+    .nav-left {
+      position: relative;
+
+      #appservices {
+        width: 195%;
+
+        padding-right: 360px;
+        position: absolute;
+        left: 1%;
+        top: 90%;
+      }
+
+      p {
+        width: 120%;
+        margin-left: 0px;
+        font-size: 12px;
+      }
+
+      #applinks {
+        position: absolute;
+        top: 25%;
+        left: -5% !important;
+
+        #storephoto {
+          width: 32%;
+
+          img {
+            width: 100%;
+          }
+
+          margin: 0px 1px;
+        }
+      }
+
+      #appabout {
+        position: absolute;
+        top: 170%;
+        left: -27%;
+      }
+
+    }
+
+    .imgphone {
+      position: relative;
+      top: -10px;
+
+      img {
+        position: absolute !important;
+        height: 256px !important;
+        left: 1px !important;
+        top: 150px !important
+      }
+
+    }
+
+  }
+
+  #currency {
+    display: none;
+  }
+
+  #currencymobile {
+    display: block;
+    background-color: #FAFAFA;
+    width: 90%;
+    border-radius: 10px;
+
+    h3 {
+      color: $maincolor;
+      font-weight: bold;
+      font-family: sans-serif;
+      font-size: 20px;
+      padding-top: 20px;
+      padding-left: 10px;
+    }
+
+    #date {
+      padding-top: 25px;
+      color: gray;
+    }
+
+    #nagd {
+      word-spacing: 55px;
+
+      #currencyabout {
+        word-spacing: 60px;
+        color: gray;
+      }
+
+      .same {
+        color: #000000;
+        font-weight: bold;
+
+      }
+    }
+
+    .buttons {
+      padding-top: 10px;
+
+      .button1 {
+        padding: 5px 15px;
+      }
+
+      .button2 {
+        padding: 5px 15px;
+      }
+
+      .button3 {
+        padding: 5px 30px;
+      }
+    }
+
+  }
+
+  #unibankillikmelumat {
+    #samecard {
+      height: 23rem;
+      width: 95%;
+      margin-left: 10px;
+    }
+
+    .birincirub {
+      :first-child {
+        font-size: 14.4px;
+      }
+    }
+
+    .seninkartin {
+      :first-child {
+        padding-left: 0px;
+      }
+    }
+  }
+
+  .newbtn {
+    text-align: center;
+
+    #newsbtn {
+
+      transform: translateY(-50%, -50%);
+      margin-top: 40px;
+      padding: 13px 25px;
+      border: none;
+      border-radius: 40px;
+      background-color: $maincolor;
+
+      #btna {
+        text-decoration: none;
+        color: $maincolor;
+        font-weight: bold;
+        color: #ffffff;
+
+      }
+    }
+  }
+
+  #services {
+    margin-top: 30px;
+
+    #left {
+      background-color: #FAFAFA;
+      border-radius: 10px;
+      width: 94%;
+      margin-left: 12px;
+
+
+      .change {
+        display: flex;
+        height: 22rem;
+      }
+
+      .xidmetwebekesi {
+        p {
+          padding-left: 40px;
+          padding-top: 50px;
+          color: $maincolor;
+          font-size: 25px;
+          font-weight: bold;
+          font-family: Arial;
+
+        }
+      }
+
+      .etraflimelumat {
+        p {
+          width: 104%;
+          padding-top: 10px;
+          padding-left: 33px;
+        }
+      }
+
+      .dahaetrafli {
+        padding-bottom: 30px;
+        padding-left: 40px;
+
+        button {
+          background-color: $maincolor;
+          border: none;
+          padding: 10px 36px;
+          border-radius: 40px;
+
+
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 14px;
+          }
+        }
+
+
+      }
+      .right {
+        padding-top: 191px;
+        padding-right: 50px;
+
+        img {
+          width: 200%;
+        }
+      }
+    }
+
+    #elaqe {
+      background-color: #FAFAFA;
+      position: relative;
+      border-radius: 10px;
+      margin-left: 14px;
+      width: 94%;
+
+      .text {
+        display: block;
+
+        :first-child {
+          padding-left: 18px;
+          color: $maincolor;
+          font-weight: bold;
+          font-family: Arial;
+          font-size: 25px;
+          font-weight: bold;
+
+
+        }
+
+        :nth-child(2) {
+          padding-left: 0px;
+          position: absolute;
+          top: 40%;
+          left: 5%;
+          color: $maincolor;
+          font-weight: bold;
+          font-size: 25px;
+          font-weight: bold;
+        }
+
+        :nth-child(3) {
+          width: 100%;
+          padding-left: 20px;
+          font-family: 400;
+        }
+      }
+
+      .dahaetrafli {
+        padding-bottom: 30px;
+
+        button {
+          background-color: $maincolor;
+          border: none;
+          padding: 10px 36px;
+          border-radius: 40px;
+
+
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 14px;
+          }
+        }
+      }
+
+      .elaqeimg {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #part1 {
+    display: none;
+  }
+
+  #footer1 {
+    margin-top: 20px;
+    margin-left: 10px;
+
+    .first {
+      color: #000000;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .second {
+      color: rgb(38, 38, 38);
+      text-decoration: none;
+      font-size: 13px;
+
+    }
+
+    .kartlar7 {
+      padding-right: 30px
+    }
+
+    hr {
+      color: rgb(101, 101, 101);
+      margin-top: 20px;
+    }
+
+    .icons {
+      gap: 16px;
+      margin-top: 30px;
+
+      .iconapple {
+        background-color: $maincolor;
+        padding: 2px 7px;
+        width:9%;
+
+        i {
+          font-size: 14px;
+          padding-left: 3px;
+        }
+
+        border-radius: 50%;
+      }
+
+      .iconandroid {
+        width: 9%;
+        padding: 2px 7px;
+        border-radius: 50%;
+        background-color: $maincolor;
+
+        i {
+          font-size: 10px;
+           padding-bottom: 3px;
+           padding-left: 3px;
+        }
+
+      }
+
+      .iconfacebook {
+        width: 8%;
+        padding: 2px 9px;
+        border-radius: 50%;
+        background-color: rgb(159, 158, 158);
+
+        i {
+          font-size: 13px;
+          padding-left: 1px;
+        }
+
+
+      }
+
+      .icontwitter {
+        width: 8%;
+        padding: 2px 7px;
+        border-radius: 50%;
+        background-color: rgb(159, 158, 158);
+
+        i {
+          font-size: 13px;
+        }
+
+      }
+
+      .iconlinkedin {
+        width: 8%;
+        padding: 2px 7px;
+        border-radius: 50%;
+        background-color: rgb(159, 158, 158);
+
+        i {
+          font-size: 13px;
+        }
+
+      }
+
+      .iconyoutube {
+
+        width: 8%;
+        padding: 2px 6px;
+        border-radius: 50%;
+        background-color: rgb(159, 158, 158);
+
+        a {
+          i {
+            font-size: 13px;
+
+          }
+        }
+      }
+
+      .iconinstagram {
+
+        width: 8%;
+        padding: 2px 6.5px;
+        border-radius: 50%;
+        background-color: rgb(159, 158, 158);
+
+        i {
+          font-size: 13px;
+          padding-left: 1px;
+
+        }
+      }
+
+      .icontelegram {
+
+        width: 8%;
+        padding: 2px 6px;
+        border-radius: 50%;
+        background-color: rgb(159, 158, 158);
+
+        i {
+          font-size: 13px;
+          padding-left: 1px;
+
+        }
+      }
+    }
+
+  }
+  
+#footer2 {
+  #footer{
+    position: relative;
+  }
+  .footerleft{
+    width: 80%;
+    position: absolute;
+    top: 180%;
+
+    :first-child{
+      color: #000000;
+      font-family: sans-serif;
+      font-size: 13px;
+      text-align: center;
+    }
+    :nth-child(2){
+      color: gray;
+      font-family: sans-serif;
+      font-size: 11px;
+      width: 109%;
+      text-align: center;
+    }
+  }
+  .footerimg {
+    width:100%;
+    display: flex;
+    .sigorta {
+      width: 40%;
+
+      img {
+        width: 70%
+      }
+    }
+    .elektron {
+      width: 40%;
+
+      img {
+        width: 120%
+
+      }
+    }
+    .infobank{
+      width: 40%;
+      margin-left: 30px;
+
+      img {
+        width: 80%
+      }
+    }
+    .maliyye{
+      margin-left: 10px;
+      width: 40%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+}

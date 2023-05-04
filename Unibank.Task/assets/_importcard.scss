@@ -1,0 +1,266 @@
+@media screen and (max-width: 576px) {
+
+  body,
+  html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  #kartlar {
+    .container {
+      h2 {
+        font-weight: bold;
+        color: $maincolor;
+        padding-left: 30px;
+      }
+    }
+    margin-top: 30px;
+    #headercard {
+      background-color: #FAFAFA;
+      margin-top: 30px;
+      height: 34rem;
+      margin-left: 7px;
+      border-radius: 10px;
+      width: 95%;
+      .allcarddiv {
+        display: flex;
+        position: relative;
+        h2 {
+          font-weight: bold;
+          color: $maincolor;
+          font-family: Arial;
+        }
+        .ucard {
+          width: 50%;
+          position: absolute;
+          top: 10%;
+          //  left: 1%;
+          img {
+            width: 195%;
+            box-shadow: -15px 15px 30px 0 rgba(2, 2, 2, 0.24);
+            border-radius: 15px;
+          }
+        }
+        .cardname {
+          padding-top: 150px;
+          h3 {
+            font-weight: bold;
+            padding-left: 130px;
+            font-family: Arial;
+          }
+          :nth-child(2) {
+            width: 99%;
+            font-size: 13px;
+          }
+          .carddetails {
+            display: flex;
+            width: 90%;
+            gap: 100px;
+            padding-left: 1px;
+            position: relative;
+            .multivalyutalicard {
+              width: 1%;
+              i {
+                font-size: 40px;
+                width: 0%;
+                padding-top: 30px;
+                position: absolute;
+                left: 15%;
+              }
+              p {
+                width: 60%;
+                font-size: 14px;
+                font-weight: bold;
+                font-family: sans-serif;
+                position: absolute;
+                top: 115%;
+                left: -13%;
+              }
+            }
+            .faizsizcard {
+              width: 1%;
+              padding-left: 0px;
+
+              i {
+                font-size: 40px;
+                width: 0%;
+                padding-top: 30px;
+                position: absolute;
+                left: 59%;
+              }
+
+              p {
+                width: 55%;
+                font-size: 14px;
+                font-weight: bold;
+                font-family: sans-serif;
+                position: absolute;
+                top: 115%;
+                left: 32%;
+              }
+
+            }
+            .cashback {
+              width: 10%;
+              padding-left: 1px;
+              i {
+                font-size: 40px;
+                padding-top: 30px;
+                padding-left: 60px;
+              }
+              p {
+                width: 60%;
+                line-height: 17px;
+                font-size: 14px;
+                font-weight: bold;
+                font-family: sans-serif;
+                position: absolute;
+                top: 120%;
+                right: -18%;
+              }
+            }
+          }
+        }
+        .etrafli {
+          cursor: pointer;
+          height: 50px;
+          position: absolute;
+          top: 108%;
+          left: 21%;
+          // margin-left: 30px;
+          padding: 14px 40px;
+          border-radius: 40px;
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            .fa-solid {
+              padding-left: 10px;
+            }
+          }
+          background-color:$maincolor;
+        }
+      }
+    }
+  }
+
+  #debetkartlar {
+    #card {
+      margin-bottom: 18rem;
+      margin-left: 7px;
+      width: 96%;
+      height: 20rem;
+
+      #same {
+        img {
+          width: 200%;
+        }
+
+        h3 {
+          font-size: 20px;
+          padding-left: 120px;
+        }
+
+        p {
+          font-size: 10px;
+          width: 120%;
+        }
+
+        .buybtn {
+          // padding-left: 80px;
+          padding-top: 20px;
+
+          #buybtn {
+            padding: 10px 15px;
+            border-radius: 40px;
+            margin-left: 40px;
+            background-color: $maincolor;
+            border: none;
+
+            a {
+              color: #ffffff;
+              font-weight: bold;
+              text-decoration: none
+            }
+
+          }
+         
+        }
+      }
+    }
+    #black{
+      // width: 300%;
+      padding-top: 30px;
+      padding-left:70px;
+      font-size: 20px;
+    }
+
+  }
+ 
+  #diger{
+    #card {
+      margin-bottom: 18rem;
+      margin-left: 7px;
+      width: 96%;
+      height: 20rem;
+
+      #same {
+        img {
+          width: 200%;
+        }
+
+        h3 {
+          font-size: 20px;
+          padding-left: 120px;
+        }
+
+        p {
+          font-size: 10px;
+          width: 120%;
+        }
+
+        .buybtn {
+          // padding-left: 80px;
+          padding-top: 20px;
+
+          #buybtn{
+            padding: 10px 15px;
+            border-radius: 40px;
+            margin-left: 40px;
+            background-color: $maincolor;
+            border: none;
+
+            a {
+              color: #ffffff;
+              font-weight: bold;
+              text-decoration: none
+            }
+
+          }
+          #buybtn{
+            padding: 10px 15px;
+            border-radius: 40px;
+            margin-left: 40px;
+            background-color: $maincolor;
+            border: none;
+
+            a {
+              color: #ffffff;
+              font-weight: bold;
+              text-decoration: none
+            }
+
+          }
+         
+        }
+      }
+    }
+    #black{
+      // width: 300%;
+      padding-top: 30px;
+      padding-left:70px;
+      font-size: 20px;
+    }
+
+  }
+  
+}
